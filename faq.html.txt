@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>FAQ | Mondes Subtils</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+  <a class="logo" href="index.html">MONDES SUBTILS</a>
+</header>
+
+<section class="section">
+  <h1>FAQ</h1>
+
+  <div class="faq">
+    <h3>Comment se déroule une séance ?</h3>
+    <p>Un temps d’échange précède chaque séance.</p>
+
+    <h3>À distance ?</h3>
+    <p>Oui, possible selon la demande.</p>
+
+    <h3>Combien de séances ?</h3>
+    <p>Variable selon la personne.</p>
+
+    <h3>Remplace un médecin ?</h3>
+    <p>Non, complémentaire uniquement.</p>
+
+    <h3>Comment réserver ?</h3>
+    <p>Via le site ou téléphone.</p>
+  </div>
+
+</section>
+
+</body>
+</html>

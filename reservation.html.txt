@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Réserver | Mondes Subtils</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+  <a class="logo" href="index.html">MONDES SUBTILS</a>
+</header>
+
+<section class="section">
+  <h1>Réserver une séance</h1>
+
+  <p class="text">
+    Choisissez votre créneau.
+  </p>
+
+  <div class="box">
+    <!-- Calendly à coller ici -->
+    <p>Intégration Calendly ici</p>
+  </div>
+
+  <div class="buttons">
+    <a class="btn" href="tel:0607149158">Appeler</a>
+    <a class="btn-outline" href="index.html#contact">Contact</a>
+  </div>
+
+</section>
+
+</body>
+</html>

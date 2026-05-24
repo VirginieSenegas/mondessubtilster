@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Pratiques | Mondes Subtils</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+  <a class="logo" href="index.html">MONDES SUBTILS</a>
+</header>
+
+<section class="section">
+  <h1>Les pratiques</h1>
+
+  <div class="cards">
+
+    <div class="card">
+      <h3>Arrêt du tabac</h3>
+      <p>Accompagnement progressif ou total.</p>
+      <small>Ne remplace aucun suivi médical.</small>
+    </div>
+
+    <div class="card">
+      <h3>Nettoyage de lieu</h3>
+      <p>Harmonisation des espaces.</p>
+    </div>
+
+    <div class="card">
+      <h3>Libération émotionnelle</h3>
+      <p>Accompagnement des blocages émotionnels.</p>
+    </div>
+
+    <div class="card">
+      <h3>Douleurs</h3>
+      <p>Apaisement global.</p>
+    </div>
+
+  </div>
+
+</section>
+
+</body>
+</html>

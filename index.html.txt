@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+    <h2 class="center">Première prise de contact</h2>
+
+    <form class="booking-form">
+
+      <input type="text" placeholder="Nom" required />
+
+      <input type="text" placeholder="Prénom" required />
+
+      <input type="date" required />
+
+      <input type="tel" placeholder="Téléphone" required />
+
+      <textarea rows="6" placeholder="Commentaires"></textarea>
+
+      <button type="submit" class="btn-primary">
+        Envoyer
+      </button>
+
+    </form>
+
+    <p class="form-message">
+      Je vous remercie pour cette première prise de contact,
+      je reviens vers vous rapidement.
+    </p>
+
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer-grid">
+
+    <div>
+      <p class="eyebrow dark">MONDES SUBTILS</p>
+
+      <p>
+        Accompagnement en mieux-être et magnétisme en Occitanie.
+      </p>
+    </div>
+
+    <div class="footer-links">
+      <a href="mentions-legales.html">Mentions légales</a>
+      <a href="accessibilite.html">Accessibilité</a>
+      <a href="cgv.html">CGV</a>
+    </div>
+
+  </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

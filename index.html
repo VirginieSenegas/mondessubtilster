@@ -1,188 +1,87 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-  <title>Mondes Subtils</title>
+  <title>Mondes Subtils | Magnétisme & accompagnement</title>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta name="description" content="Accompagnement en magnétisme à Castres, Toulouse, Tarn et Occitanie. Séances à distance ou en présentiel.">
 
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <header class="navbar">
-
-  <a href="index.html" class="logo-wrapper">
-    <img src="images/logo.svg" alt="Mondes Subtils" class="logo">
-    <span>MONDES SUBTILS</span>
-  </a>
+  <a class="logo" href="index.html">MONDES SUBTILS</a>
 
   <nav>
     <a href="about.html">À propos</a>
-    <a href="pratiques.html">Les pratiques</a>
+    <a href="pratiques.html">Pratiques</a>
     <a href="faq.html">FAQ</a>
-
-    <a href="reservation.html" class="btn-primary">
-      Réserver
-    </a>
+    <a class="btn" href="reservation.html">Réserver</a>
   </nav>
-
 </header>
 
 <section class="hero">
+  <div class="hero-content">
+    <h1>Un espace de calme et d’accompagnement</h1>
+    <p>Magnétisme et accompagnement personnalisé en Occitanie.</p>
 
-  <img
-    src="images/hero.jpg"
-    alt="Mondes Subtils"
-    class="hero-image"
-  >
-
-  <div class="hero-overlay"></div>
-
-  <div class="hero-content fade-in">
-
-    <p class="eyebrow">
-      MONDES SUBTILS
-    </p>
-
-    <h1>
-      Un espace de calme,
-      d’écoute et d’accompagnement personnalisé.
-    </h1>
-
-    <div class="hero-buttons">
-
-      <a href="reservation.html" class="btn-light">
-        Réserver une séance
-      </a>
-
-      <a href="#contact" class="btn-outline">
-        Poser une question
-      </a>
-
+    <div class="hero-actions">
+      <a class="btn" href="reservation.html">Réserver une séance</a>
+      <a class="btn-outline" href="pratiques.html">Découvrir</a>
     </div>
-
   </div>
-
 </section>
 
-<section class="intro section">
-
-  <div class="container narrow center">
-
-    <p class="eyebrow dark">
-      ACCOMPAGNEMENT PERSONNALISÉ
-    </p>
-
-    <h2>
-      Une approche douce, humaine et respectueuse du rythme de chacun.
-    </h2>
-
-    <p>
-      Chaque séance s’inscrit dans une démarche de mieux-être,
-      d’écoute et d’accompagnement personnalisé.
-    </p>
-
-  </div>
-
+<section class="section">
+  <h2>Une approche simple et humaine</h2>
+  <p class="text">
+    Chaque séance est un temps d’écoute, de présence et d’accompagnement personnalisé.
+  </p>
 </section>
 
-<section class="practices-preview section light-bg">
-
-  <div class="container grid-3">
-
-    <article class="card">
-
-      <h3>Arrêt du tabac</h3>
-
-      <p>
-        Accompagnement progressif ou ponctuel selon votre démarche.
-      </p>
-
-    </article>
-
-    <article class="card">
-
-      <h3>Libération émotionnelle</h3>
-
-      <p>
-        Accompagnement dans les périodes de surcharge émotionnelle.
-      </p>
-
-    </article>
-
-    <article class="card">
-
-      <h3>Travail à distance</h3>
-
-      <p>
-        Séances personnalisées sans déplacement.
-      </p>
-
-    </article>
-
+<section class="cards">
+  <div class="card">
+    <h3>Arrêt du tabac</h3>
+    <p>Accompagnement progressif ou ponctuel.</p>
   </div>
 
+  <div class="card">
+    <h3>Libération émotionnelle</h3>
+    <p>Apaiser les périodes de surcharge émotionnelle.</p>
+  </div>
+
+  <div class="card">
+    <h3>Travail à distance</h3>
+    <p>Séances sans déplacement.</p>
+  </div>
 </section>
 
-<section id="contact" class="section">
+<section class="section">
+  <h2>Contact</h2>
 
-  <div class="container narrow">
+  <form class="form">
+    <input placeholder="Nom" required>
+    <input placeholder="Prénom" required>
+    <input type="date" required>
+    <input type="tel" placeholder="Téléphone" required>
+    <textarea placeholder="Message"></textarea>
 
-    <h2 class="center">
-      Première prise de contact
-    </h2>
+    <button class="btn" type="submit">Envoyer</button>
+  </form>
 
-    <form class="booking-form">
-
-      <input type="text" placeholder="Nom">
-
-      <input type="text" placeholder="Prénom">
-
-      <input type="date">
-
-      <input type="tel" placeholder="Téléphone">
-
-      <textarea rows="6" placeholder="Commentaires"></textarea>
-
-      <button type="submit" class="btn-primary">
-        Envoyer
-      </button>
-
-    </form>
-
-  </div>
-
+  <p class="note">
+    Je vous réponds rapidement après votre message.
+  </p>
 </section>
 
-<footer class="footer">
-
-  <div class="container footer-grid">
-
-    <div>
-
-      <p class="eyebrow dark">
-        MONDES SUBTILS
-      </p>
-
-      <p>
-        Accompagnement en mieux-être et magnétisme en Occitanie.
-      </p>
-
-    </div>
-
-  </div>
-
+<footer>
+  <p>© Mondes Subtils</p>
 </footer>
 
 <script src="script.js"></script>
-
 </body>
 </html>
